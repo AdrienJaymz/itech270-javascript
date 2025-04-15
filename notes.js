@@ -57,7 +57,7 @@
  * the argument.  For this reason, we use IDs for many of our selectors.
  * 
  * However there are also many times were you don't want just a single instance of your selector.  Maybe
- * you want to target ALL of the images on the page.  for that, we use querySelectorall().  This function
+ * you want to target ALL of the images on the page.  for that, we use querySelectorAll().  This function
  * is the same as querySelector()  except it will return an array of all of the items on the page
  * that fit the argument.
  * 
@@ -65,6 +65,8 @@
  * below use the command document.querySelector('section') and then the command document.querySelectorAll('section)
  * note the difference
  */
+// const section = document.querySelectorAll('section');
+// console.log(section)
 
 /**
  * functions
@@ -74,11 +76,12 @@
  * not run because it is a function and only runs when the function is called.
  */
 
-// console.log("hello world")
+// console.log("hello world");
 
 // const myFunc = () =>{
-//     console.log("foo bar")
+//     console.log("foo bar");
 // }
+// myFunc();
 
 /**
  * All functions have the same parts.  the name, the parameters, the body.  In the function below, "myFunc" 
@@ -132,3 +135,4 @@
  * the paranthesis in the event listeners, the functions would have been called immediately instead of waiting until the
  * event happened.
  */
+
