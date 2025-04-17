@@ -7,3 +7,11 @@
 .css{
     background-color: white;
 }
+
+#toggle-box{
+    background-color: lightgrey;
+}
+
+#toggle-box #toggle-content{
+    display:none;
+}
